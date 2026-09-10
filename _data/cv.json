@@ -1,14 +1,14 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Jared Freedman",
+    "email": "jwfreedman@gmail.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://jaredfreedman.github.io",
+    "summary": "Postdoctoral Researcher, Department of Natural Resources and the Environment. Molecular ecologist using eDNA to understand biodiversity and phylogeography across complex freshwater landscapes.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Ithaca, NY",
       "countryCode": "US",
       "region": ""
     },
@@ -16,17 +16,17 @@
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=p866oC8AAAAJ&hl=en"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0000-0002-5430-1947"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "jaredfreedman",
+        "url": "https://github.com/jaredfreedman"
       }
     ]
   },
@@ -62,7 +62,20 @@
   ],
   "skills": [],
   "languages": [],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Environmental DNA"
+    },
+    {
+      "name": "Community Ecology"
+    },
+    {
+      "name": "Freshwater Conservation"
+    },
+    {
+      "name": "Landscape Genetics"
+    }
+  ],
   "references": [],
   "publications": [
     {
