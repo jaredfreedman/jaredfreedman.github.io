@@ -12,9 +12,10 @@ author_profile: true
 {% include base_path %}
 
 {% if site.publication_category %}
+  {% assign pub_number = 0 %}
   {% for category in site.publication_category %}
     {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
+    {% for post in site.publications %}
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
@@ -22,11 +23,10 @@ author_profile: true
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
+      {% assign pub_number = pub_number | plus: 1 %}
       <div class="list__item">
         <article class="archive__item">
-          <h3 class="archive__item-title">{{ post.title }}</h3>
-          {% if post.citation %}<p>{{ post.citation }}</p>{% endif %}
-          {% if post.paperurl %}<p><a href="{{ base_path }}{{ post.paperurl }}" class="btn btn--primary">Download PDF</a></p>{% endif %}
+          {% if post.citation %}<p>{{ pub_number }}. {{ post.citation }}{% if post.paperurl %} <a href="{{ base_path }}{{ post.paperurl }}">[PDF]</a>{% endif %}</p>{% endif %}
         </article>
       </div>
     {% endfor %}
