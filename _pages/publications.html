@@ -25,7 +25,6 @@ author_profile: true
       <div class="list__item">
         <article class="archive__item">
           <h3 class="archive__item-title">{{ post.title }}</h3>
-          {% if post.excerpt %}<p class="archive__item-excerpt">{{ post.excerpt }}</p>{% endif %}
           {% if post.citation %}<p>{{ post.citation }}</p>{% endif %}
           {% if post.paperurl %}<p><a href="{{ base_path }}{{ post.paperurl }}" class="btn btn--primary">Download PDF</a></p>{% endif %}
         </article>
