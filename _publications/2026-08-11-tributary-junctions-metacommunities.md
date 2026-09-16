@@ -6,7 +6,7 @@ excerpt: 'Using eDNA metabarcoding to show how landscape heterogeneity at tribut
 date: 2026-08-11
 venue: 'Ecology'
 paperurl: '/files/freedman-etal-2026-ecology.pdf'
-citation: '<strong>Freedman, J. W.</strong>, Kennedy, T. A., Burke, M. K., &amp; Lytle, D. A. (in press). Landscape heterogeneity at tributary junctions shapes aquatic metacommunities in Grand Canyon, Colorado River, USA. <i>Ecology</i>.'
+citation: '<strong>Freedman, J. W.</strong>, Kennedy, T. A., Burke, M. K., &amp; Lytle, D. A. (2026). Landscape heterogeneity at tributary junctions shapes aquatic metacommunities in Grand Canyon, Colorado River, USA. <i>Ecology</i>. In press, accepted August 11, 2026.'
 ---
 
 In press at *Ecology*, accepted August 11, 2026.
